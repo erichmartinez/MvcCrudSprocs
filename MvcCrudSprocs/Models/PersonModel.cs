@@ -18,7 +18,7 @@ namespace MvcCrudSprocs.Models
         public string Address { get; set; }
 
         [Required(ErrorMessage = "Phone is required.")]
-        public int Phone { get; set; }
+        public string Phone { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]
         public string Email { get; set; }

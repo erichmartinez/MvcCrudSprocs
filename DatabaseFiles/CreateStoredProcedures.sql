@@ -11,7 +11,7 @@ Create procedure [dbo].[AddNewPerson]
 (  
    @Name nvarchar (50),  
    @Address nvarchar (100),  
-   @Phone int,  
+   @Phone nvarchar (50),  
    @Email nvarchar (50)  
 )  
 as  
@@ -42,7 +42,7 @@ Create procedure [dbo].[UpdatePersonDetails]
    @Id int,  
    @Name nvarchar (50),  
    @Address nvarchar (100),  
-   @Phone int,  
+   @Phone nvarchar (50),  
    @Email nvarchar (50)  
 )  
 as  

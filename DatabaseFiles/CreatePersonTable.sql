@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[Person](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [nvarchar](50) NULL,
 	[Address] [nvarchar](100) NULL,
-	[Phone] [int] NULL,
+	[Phone] [nvarchar](50) NULL,
 	[Email] [nvarchar](50) NULL,
 PRIMARY KEY CLUSTERED 
 (

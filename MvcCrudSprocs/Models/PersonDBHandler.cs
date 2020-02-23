@@ -61,7 +61,7 @@ namespace MvcCrudSprocs.Models
                         ID = Convert.ToInt32(dr["Id"]),
                         Name = Convert.ToString(dr["Name"]),
                         Address = Convert.ToString(dr["Address"]),
-                        Phone = Convert.ToInt32(dr["Phone"]),
+                        Phone = Convert.ToString(dr["Phone"]),
                         Email = Convert.ToString(dr["Email"])
                     });
             }
